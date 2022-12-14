@@ -8,8 +8,8 @@
   F1-score was used for evaluation and AUC was monitored with FP/FN to avoid overfitting of the model.
 
 ## Emedding
-  Explored different embedding but had to manage trade off between inference time and model performance
-  We have used sentence-transformer to get better code and docstring representation.
+  <ol><li>Explored different embedding but had to manage trade off between inference time and model performance</li>
+  <li>We have used sentence-transformer to get better code and docstring representation.</li></ol>
 
 ## Process
 Reason to go with LGBM: 

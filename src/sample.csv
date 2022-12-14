@@ -1,0 +1,3 @@
+code,docstring
+"def get_method_name(code:str)->str:     """"""""""""          return code.split("":"")[0] ","Extracting method name      from method name as a feature      "
+"def preprocess(text):     """"""""""""      text = str(text).lower()     text = "" "".join([words for words in text.split() if words.lower() not in STOP_WORDS or \             words.lower() not in custom_stowords_list])             text = re.sub(r""([0-9]+)"","""", text)      return text",removing stopwords and numeric from string 

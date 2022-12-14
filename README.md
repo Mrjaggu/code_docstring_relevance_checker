@@ -1,5 +1,5 @@
 # code_docstring_relevance_checker
-  A tiny transformer + LGBM based model to find relevance match between code and docstring
+  A tiny sentence transformer + LGBM based model to find relevance match between code and docstring
 
 ## Dataset:
   Python corpus was used for training the model with 70/30 split.

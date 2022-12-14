@@ -1,4 +1,4 @@
-# code ocstring relevance checker
+# code docstring relevance checker
   A tiny sentence transformer + LGBM based model to find relevance match between code and docstring
 
 ## Dataset:

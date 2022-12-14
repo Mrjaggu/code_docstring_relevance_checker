@@ -2,7 +2,7 @@
   A tiny sentence transformer + LGBM based model to find relevance match between code and docstring
 
 ## Dataset:
-  Python corpus was used for training the model with 70/30 split.
+  Python corpus was used for training the model with 70/30 split and test size of 88k which was kept hidden.
 
 ## Metric:
   F1-score was used for evaluation and AUC was monitored with FP/FN to avoid overfitting of the model.
